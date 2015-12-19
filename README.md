@@ -2,6 +2,14 @@
 
 Automatically run the right version of Node and NPM for each project
 
+### Background
+
+[Meteor](https://www.meteor.com/) does version management for you, and automatically installs/runs the right versions of everything based on the `.meteor/release` file that exists in every Meteor project. As a result, you can basically always just `git clone` a Meteor project, and type `meteor` in the root directory to run it, without worrying about versions of Meteor, Node, NPM, etc.
+
+I'd like to have the same experience for Node - it would be great to just download any project, run one command, and be sure that it's going to run the way the author intended. Many projects now need to document in the README which versions of Node they expect, but there's already a field for that in `package.json` - the `engines` field!
+
+Could we use this field to just run the right version of Node and NPM based on the project we're in?
+
 ### Desired UX
 
 ```
