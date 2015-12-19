@@ -6,7 +6,7 @@ Automatically run the right version of Node and NPM for each project
 
 ```
 git clone https://github.com/webpack/react-starter
-auto-nvm node install
+auto-nvm npm install
 auto-nvm npm start
 ```
 
