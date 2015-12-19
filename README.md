@@ -1,6 +1,8 @@
 # auto-nvm
 
-Automatically run the right version of Node and NPM for each project
+Automatically run the right version of Node and NPM for each project.
+
+Just an idea - file an issue for discussion if you think this is interesting!
 
 ### Background
 
